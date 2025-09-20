@@ -21,7 +21,7 @@ services:
       - mysqldb
     restart: on-failure
     networks:
-      - springboot-mysql-net
+      - springboot-mysql-nwet
 
   frontend:
     image: guttalohitha/docker-frontend:latest
