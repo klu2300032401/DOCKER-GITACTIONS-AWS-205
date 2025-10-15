@@ -38,3 +38,4 @@ jobs:
           file: ./STUDENTAPI-REACT/frontend.Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-frontend:latest
+          
